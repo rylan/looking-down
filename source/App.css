@@ -2,6 +2,255 @@
 	Put anything you reference with "url()" in ../assets/
 	This way, you can minify your application, and just remove the "source" folder for production
 */
-.nice-padding {
-	padding: 15px;
+
+#app {
+	margin: 0.25em;
+	border-radius: 0.2em;
+	background-color: white;
+	padding: 0.25em;
+	font-family: 'Droid Sans';
+	font-weight: 100;
+	font-size: 16px;
+}
+.close_icon {
+	display: inline; 
+	height: 1.5em; 
+	width: 1.5em;
+	max-width: 1.5em;
+	max-height: 1.5em;
+	margin: 0.1em;
+}
+.bar_top {
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+	margin-right: 0.3em;
+	margin-left: 0.3em;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	width: 1.2em;
+	height: 1.2em;
+}
+.bar_icon {
+	max-width: 1.5em;
+	max-height: 1.5em;
+	width:1.5em;
+	height:1.5em;
+}
+.bar_icon_right{
+	float: right;
+	position: relative; 
+	margin: 0 0 5px 5px;
+}
+.enyo-bingmap {
+	overflow: hidden;
+	position: relative;
+}
+.roadimg_topbar {
+	background-color: black;
+	padding: 0.25em;
+	color: white;
+}
+.img_holder{
+	height: 9em;
+	max-width: 12em;
+	
+}
+.img_item{
+	max-width: 12em;
+}	
+.roadimg {
+	display: inline-block;	
+	overflow: hidden;
+	position: relative;
+	margin: 0.5em;
+	border-radius: 0.1em;
+	box-shadow: 0 0.1em 0.2em rgba(0,0,0,0.3);
+	text-align: left;
+	font-size: 0.8em;
+	width: 12em;
+}
+
+.main {
+	background-color: white;
+}
+
+.titleheader {
+	font-family: 'Droid Sans';
+	text-align: left;
+	font-size: 1.6em;
+	font-variant: small-caps;
+}
+.app-heading{
+	text-align: left;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	margin-right: 0.5em;
+}
+.highwayitems{
+	margin-left:0.5em;
+	text-align: left;
+	font-size: 1.3em;	
+}
+.boxitems{
+	background-color: teal;
+	height: 1.8em;
+	width: 0.2em;
+	padding-right: 0.5em;
+	margin-right: 0.25em;
+	float: left;
+}
+
+
+.cameraview {
+	background-color: black;
+	color: white;
+	max-width: 450px;
+	height: 100%; 
+	margin: 0.25em;
+}
+.cameraview_image{
+	width: 19em;
+	max-width:450px;
+	height: 17em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+.cameraview_map{
+	width: 19em;
+	max-width:450px;
+	height: 17em;
+	padding: 0.5em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.25em;
+}
+.cameraview_header {
+	text-align: left;
+	font-size: 1.4em;
+	font-variant: small-caps;
+	position: relative;
+	margin-top: 0.25em;
+	margin-bottom: 0.5em;
+	margin-left: 0.8em;
+	width: 19em;
+}
+.roadpage{
+	padding: 0.8em;
+	background-color:black;
+}
+.pageheader {
+	text-align: left;
+	font-size: 1.6em;
+	font-variant: small-caps;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+	margin-left: 0.8em;
+	color:white;
+}
+.panels-sample-sliding-panels > * {
+	background-color: #EAEAEA;
+	box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+}
+.app-panels > * {
+    width: 1024;
+    height:768;
+}
+.panel-shadow {
+	box-shadow: -6px 0 6px rgba(0,0,0,0.3);
+	-moz-box-shadow: -6px 0 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: -6px 0 6px rgba(0,0,0,0.3);
+}
+.showmore {
+	background-color: black;
+	color: white;
+	vertical-align: middle;
+}
+.about_page {
+	background-color: black;
+	color: white;
+	max-width:360px;
+	margin-left:0.25em;
+}
+.about_header {
+	font-size: 1.6em
+}
+.about_image {
+	display: block;
+	height: 4em;
+	width: 4em;
+}
+.about_version {
+	font-size: 0.9em;
+}
+.about_dev {
+	font-size: 0.9em;
+	margin: 0.25em;
+}
+.about_txt {
+	font-size: 0.7em;
+	margin: 0.8em;
+	width:90%;
+}
+.about_email {
+	font-size: 0.8em;
+	margin: 0.25em;
+}
+.settings_page {
+	background-color: black;
+	color: white;
+	max-width:360px;
+	margin-left:0.25em;
+}
+.settings_header {
+	font-size: 1.6em;
+}
+.settings_question {
+	vertical-align: middle;
+	font-size: 0.9em;
+}
+.info{
+	float: right; 
+	top: 1em; 
+	margin-left: 0.5em;
+	margin-right: 0.25em; 
+	width: 1.2em; 
+	height: 1.2em;
+	display: inline-block;
+}
+.settings {
+	position: relative; 
+	float: right;
+	background-color: white; 
+	width: 1.3em; 
+	height: 1.3em;
+	display:inline-block;
+}
+.spinner_small {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(../assets/images/ajax-loader.gif) no-repeat 0 0;
+}
+.privacy_page {
+	background-color: black;
+	color: white;
+	max-width:360px;
+	margin-left:0.25em;
+}
+.privacy_header {
+	font-size: 1.6em
+}
+.privacy_txt {
+	font-size: 0.7em;
+	margin: 0.8em;
+	width:90%;
+}
+.privacy_email {
+	font-size: 0.8em;
+	margin: 0.25em;
 }

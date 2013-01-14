@@ -1,0 +1,52 @@
+{
+    "cameras": [
+        {
+            "src": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/loc103.jpg",
+            "description": "401 near Harwood Ave",
+            "locations": [
+                {
+                    "location": "GTA"
+                },
+                {
+                    "location": "401"
+                }
+            ],
+            "geo": {
+                "latitude": "43.852169",
+                "longitude": "-79.022083"
+            }
+        },
+        {
+            "src": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/loc111.jpg",
+            "description": "400 near Hwy 407",
+            "locations": [
+                {
+                    "location": "GTA"
+                },
+                {
+                    "location": "400"
+                }
+            ],
+            "geo": {
+                "latitude": "43.782001",
+                "longitude": "-79.542303"
+            }
+        },
+        {
+            "src": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/BurlCamera/loc04.jpg",
+            "description": "QEW Burlington Skyway - Hamilton",
+            "locations": [
+                {
+                    "location": "Burlington / Mississauga"
+                },
+                {
+                    "location": "QEW"
+                }
+            ],
+            "geo": {
+                "latitude": "43.294075",
+                "longitude": "-79.793444"
+            }
+        }
+    ]
+}
