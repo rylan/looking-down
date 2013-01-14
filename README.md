@@ -1,7 +1,9 @@
 looking-down
 ============
 
-Touch based traffic camera framework
+Touch based traffic camera application framework. 
+
+BingMaps requires a key ( https://www.bingmapsportal.com )
 
 
 --
