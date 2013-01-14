@@ -3,6 +3,17 @@ looking-down
 
 Touch based traffic camera application framework. 
 
+Example implementations: 
+
+The 400s (Ontario's 400 series highways)
+http://the400s.icottrell.com
+
+Cowtown Traffic (Calgary's roadways)
+http://cowtown.icottrell.com
+
+--
+Notes:
+
 BingMaps requires a key ( https://www.bingmapsportal.com )
 
 
